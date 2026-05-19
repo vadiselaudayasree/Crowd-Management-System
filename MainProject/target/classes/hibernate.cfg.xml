@@ -1,0 +1,46 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hibernate.connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+
+        <property name="hibernate.connection.url">
+            jdbc:mysql://localhost:3306/crowd_management_system
+        </property>
+
+        <property name="hibernate.connection.username">
+            root
+        </property>
+
+        <property name="hibernate.connection.password">
+            Gpcet@123
+        </property>
+
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+
+        <property name="hibernate.show_sql">true</property>
+
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Entity Mappings -->
+
+        <mapping class="com.crowd_Entities.Booking"/>
+        <mapping class="com.crowd_Entities.Crowd_analytics"/>
+        <mapping class="com.crowd_Entities.Entry_exit_log"/>
+        <mapping class="com.crowd_Entities.Incident"/>
+        <mapping class="com.crowd_Entities.Notification"/>
+        <mapping class="com.crowd_Entities.Staff"/>
+        <mapping class="com.crowd_Entities.Time_slot"/>
+        <mapping class="com.crowd_Entities.Venue"/>
+        <mapping class="com.crowd_Entities.Visitor"/>
+        <mapping class="com.crowd_Entities.Zone"/>
+
+    </session-factory>
+</hibernate-configuration>
