@@ -8,7 +8,7 @@ The system also keeps track of when a visitor enters and exits using an entry-ex
 
 There are different modules in the system such as visitor management, slot booking, venue and zone management, staff handling, incident reporting, and notifications. Admins can monitor all activities, handle issues, and ensure smooth operations.
 
-This project was built using Java, Spring Boot, MySQL, HTML, CSS, and JavaScript. It demonstrates how a real-world problem like crowd control can be solved using a structured database and a full-stack approach.
+This project was built using Java, MySQL, HTML, CSS, and JavaScript. It demonstrates how a real-world problem like crowd control can be solved using a structured database and a full-stack approach.
 
 Overall, this system helps in reducing overcrowding, improving safety, and making crowd management more efficient.
 
